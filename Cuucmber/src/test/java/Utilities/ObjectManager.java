@@ -16,10 +16,12 @@ public class ObjectManager {
 	
 	public PageObjects.LoginPage LoginPage() {
 		
-		return new PageObjects.LoginPage(driver);
+		return new PageObjects.LoginPage(this.driver);
 		
 		
 	}
+	
+	
 	
 	
 
